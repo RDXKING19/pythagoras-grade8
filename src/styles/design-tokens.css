@@ -1,0 +1,64 @@
+:root {
+  color-scheme: dark;
+  --bg-cosmic: radial-gradient(ellipse at 30% 20%, #2d1b6b 0%, #1a0f4e 30%, #0d0a2e 65%, #080520 100%);
+  --bg-cosmic-overlay: linear-gradient(180deg, #581ceb0f 0%, transparent 50%, #08052066 100%);
+  --color-primary: #8b5cf6;
+  --color-gold: #facc15;
+  --color-gold-hover: #fef08a;
+  --color-text-light: #ffffff;
+  --color-text-muted: #cbd5e1;
+  --color-text-subtle: #94a3b8;
+  
+  --glass-bg: #2e1e5a85;
+  --glass-bg-strong: #1e143cb8;
+  --glass-border: #ffffff24;
+  --glass-shadow: 0 16px 48px #0000008c;
+  --glass-blur: blur(22px);
+
+  --color-wonder: #c084fc;
+  --color-story: #fb923c;
+  --color-simulate: #38bdf8;
+  --color-play: #4ade80;
+  --color-reflect: #818cf8;
+
+  /* 10 World accents per PRD §9.1 and TRD §10.1 */
+  --world-0: #f472b6;
+  --world-1: #38bdf8;
+  --world-2: #4ade80;
+  --world-3: #fb923c;
+  --world-4: #fbbf24;
+  --world-5: #2dd4bf;
+  --world-6: #818cf8;
+  --world-7: #e879f9;
+  --world-8: #c084fc;
+  --world-9: #f43f5e;
+
+  /* Header height variable measured dynamically by useHeaderHeight */
+  --header-h: 56px;
+
+  /* Pythagoras visual tokens */
+  --pyth-leg-a: #38bdf8;
+  --pyth-leg-b: #fb923c;
+  --pyth-hyp: #facc15;
+  --pyth-unknown: #f43f5e;
+  --pyth-ok: #4ade80;
+  --pyth-grid: rgba(255, 255, 255, 0.14);
+  --target-min: 44px;
+
+  --space-xs: clamp(4px, 0.8vh, 8px);
+  --space-sm: clamp(8px, 1.5vh, 16px);
+  --space-md: clamp(12px, 2vh, 24px);
+  --space-lg: clamp(16px, 3vh, 32px);
+  --space-xl: clamp(20px, 4.5vh, 48px);
+
+  --fs-main-heading: clamp(34px, 5.5vh, 64px);
+  --fs-section-heading: clamp(26px, 4vh, 48px);
+  --fs-learning-objective: clamp(20px, 3.2vh, 36px);
+  --fs-question-text: clamp(20px, 3vw, 34px);
+  --fs-important-numbers: clamp(30px, 5vh, 56px);
+  --fs-body-text: clamp(16px, 2.3vh, 22px);
+  --fs-button-text: clamp(16px, 2.4vh, 26px);
+  --fs-caption: clamp(14px, 1.8vh, 18px);
+
+  font-family: Nunito, Inter, system-ui, -apple-system, sans-serif;
+}

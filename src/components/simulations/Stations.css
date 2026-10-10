@@ -1,0 +1,16 @@
+.station-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.sim-handle {
+  cursor: grab;
+  touch-action: none;
+  transition: transform 0.1s ease;
+}
+
+.sim-handle:active {
+  cursor: grabbing;
+}
